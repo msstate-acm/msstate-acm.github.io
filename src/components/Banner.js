@@ -6,12 +6,12 @@ class Banner extends Component {
   render() {
     return (
       <Container fluid>
-      <Segment inverted attached className='Banner'>
+      <Segment inverted attached className='BannerImage'>
         <br />
-        <Header size='huge'>
+        <Header size='huge' className='BannerText'>
           Association for Computing Machinery
         </Header>
-        <Header size='small'>
+        <Header size='small' className='BannerText'>
           <em>The</em> Computer Science Organization at Mississippi State University
         </Header>
       </Segment>

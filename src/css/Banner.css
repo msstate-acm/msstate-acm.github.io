@@ -1,5 +1,11 @@
-.Banner {
+.BannerImage {
   background-image: url('https://gigaom.com/wp-content/uploads/sites/1/2014/04/slime-mold-board-3.png') !important;
   background-size: cover !important;
-  text-shadow: 0.3em 0.3em 0.5em rgba(0, 0, 0, 1);
+}
+
+.ui.header.BannerText {
+  background-color: rgba(0, 0, 0, 0.7);
+  margin-bottom: 0;
+  padding: 7px 15px;
+  display: inline-block;
 }
