@@ -1,6 +1,7 @@
 {
   "name": "website.acm.org.msstate.edu",
   "version": "0.1.0",
+  "author": "Jacob Mason <jacob@jacobmason.net>",
   "private": true,
   "dependencies": {
     "prop-types": "^15.5.10",
