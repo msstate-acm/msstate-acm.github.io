@@ -8,7 +8,7 @@ class TwitterFeed extends Component {
       <Container>
       <Segment raised className="TwitterFeed">
         <a className="twitter-timeline"
-        data-dnt="true" data-height='70vh' data-chrome='nofooter' data-link-color='#800000'
+        data-dnt="true" data-height='70vh' data-chrome='nofooter noscrollbar' data-link-color='#800000'
         href="https://twitter.com/AcmMsu">Twitter Feed of the Association for Computing Machinery at Mississippi State University</a>
       </Segment>
       </Container>

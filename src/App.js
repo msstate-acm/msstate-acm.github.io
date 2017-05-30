@@ -20,7 +20,7 @@ class App extends Component {
           <Grid.Column>
             <EventFeed />
           </Grid.Column>
-          <Grid.Column width={3} only='tablet computer'>
+          <Grid.Column width={3} only='computer'>
             <TwitterFeed />
           </Grid.Column>
         </Grid>
