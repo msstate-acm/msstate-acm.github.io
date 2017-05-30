@@ -12,7 +12,7 @@ class EventFeed extends Component {
       })
     }
     return (
-      <Container fluid>
+      <Container>
         {eventItems}
       </Container>
     );

@@ -4,6 +4,7 @@
 }
 
 .ui.header.BannerText {
+  color: white;
   background-color: rgba(0, 0, 0, 0.7);
   margin-bottom: 0;
   padding: 7px 15px;

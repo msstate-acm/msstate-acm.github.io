@@ -16,11 +16,11 @@ class App extends Component {
       <div>
         <Banner />
         <br />
-        <Grid centered columns='2' stackable>
+        <Grid stretched centered stackable doubling columns='2'>
           <Grid.Column>
             <EventFeed />
           </Grid.Column>
-          <Grid.Column width={4} only='tablet computer'>
+          <Grid.Column width={3} only='tablet computer'>
             <TwitterFeed />
           </Grid.Column>
         </Grid>
